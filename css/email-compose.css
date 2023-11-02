@@ -51,3 +51,7 @@ input:focus {
 .button:hover {
     background-color: var(--secondary-color);
 }
+
+.red-border {
+    border: 2px solid red;
+}

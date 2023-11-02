@@ -3,14 +3,15 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>E-mail Compose</title>
+        <title>Email Compose</title>
         <link rel="stylesheet" href="css/email-compose.css" />
+        <script src="js/email-compose.js" defer></script>
     </head>
     <body>
         <main>
-            <form>
-                <input type="text" placeholder="Destinatários" required autocomplete="off" />
-                <input type="submit" value="Enviar" class="button" />
+            <form id="form">
+                <input type="text" id="recipients" placeholder="Recipients" required autocomplete="off" />
+                <input type="submit" value="Send" class="button" />
             </form>
         </main>
     </body>
